@@ -21,18 +21,18 @@ print(f"thirdVar {type(thirdVar)} {hex(id(thirdVar))}")
 
 # EXERCISE 2
 
-# firstOperand = int(input("Insert first number: "))
-# secondOperand = int(input("Insert second number: "))
-# operator = input("Insert operator: ")
-#
-# if operator == "+":
-#     print(f"{firstOperand} + {secondOperand} = {firstOperand + secondOperand}")
-# elif operator == "-":
-#     print(f"{firstOperand} - {secondOperand} = {firstOperand - secondOperand}")
-# elif operator == "*":
-#     print(f"{firstOperand} * {secondOperand} = {firstOperand * secondOperand}")
-# elif operator == "/":
-#     print(f"{firstOperand} / {secondOperand} = {firstOperand / secondOperand}")
+firstOperand = int(input("Insert first number: "))
+secondOperand = int(input("Insert second number: "))
+operator = input("Insert operator: ")
+
+if operator == "+":
+    print(f"{firstOperand} + {secondOperand} = {firstOperand + secondOperand}")
+elif operator == "-":
+    print(f"{firstOperand} - {secondOperand} = {firstOperand - secondOperand}")
+elif operator == "*":
+    print(f"{firstOperand} * {secondOperand} = {firstOperand * secondOperand}")
+elif operator == "/":
+    print(f"{firstOperand} / {secondOperand} = {firstOperand / secondOperand}")
 
 # EXERCISE 3
 
